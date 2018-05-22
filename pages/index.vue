@@ -19,6 +19,11 @@
           class="button--grey">GitHub</a>
       </div>
     </div>
+    <form class="form" action="" method="post" netlify>
+      <input type="text" name="name">
+      <input type="number" name="old">
+      <button type="submit">submit</button>
+    </form>
   </section>
 </template>
 
@@ -60,5 +65,15 @@ export default {
 
 .links {
   padding-top: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+input {
+  margin-bottom: 1rem;
 }
 </style>
