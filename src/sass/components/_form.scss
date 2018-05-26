@@ -1,0 +1,23 @@
+.form {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  padding: 10px;
+  border: 1px dotted grey;
+}
+
+.form__input {
+  padding: 5px;
+  margin-bottom: 1rem;
+  width: 90%;
+}
+
+.form__submit {
+  width: 90%;
+  padding: 5px;
+  background: none;
+  border: 1px solid grey;
+}
